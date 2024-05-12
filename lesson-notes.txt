@@ -1,0 +1,10 @@
+Overview
+
+1. Fetch data on the server using server components
+2. Fetch data in parallel to minimise waterfalls and reduce loading times
+3. For layouts and pages, fetch data where it's used. Next.js will automatically dedupe requests in a tree
+4. Use Loading UI, Streaming and Suspense to progressiovely render a page and show a result to the user while the rest of the content loads
+
+Next.js tends to recommend SSG where possible.
+
+Using not-found.tsx is a assigned name for a page that will throw a 404 error to the user, this can also be modified. 
